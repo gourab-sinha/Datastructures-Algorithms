@@ -90,14 +90,9 @@ int main()
             }
         }
     }
-
-  /*
-
-  	   Write Your Code Here
-	   Complete the Rest of the Program
-	   You have to Print the output yourself
-	 
-  */
+    delete [] edges;
+    delete [] visited;
+    delete [] graph;
 
   return 0;
 }
