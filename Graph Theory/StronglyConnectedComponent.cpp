@@ -48,16 +48,14 @@ unordered_set<unordered_set<int>*>* GetComponents(vector<int>* edges,vector<int>
 		visited[i] = false;
 	}
 	unordered_set<unordered_set<int>*>* output = new unordered_set<unordered_set<int>*>();
-	int counter = 0;
 	while(!finishVertex->empty())
 	{
 		int start = finishVertex->top();
 		finishVertex->pop();
 		if(!visited[start])
 		{
-			counter++;
 			unordered_set<int>* component = new unordered_set<int>();
-			DFS(edges,start,visited,component);
+			DFS(edgesT,start,visited,component);
 			output->insert(component);
 		}
 	}
