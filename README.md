@@ -3,8 +3,8 @@ This repository contains all the basic to advance data structures which one can 
 
 # List of Folders
  * Graph Theory(will add more)
- * Number Theory(soon)
- * String Matching(soon)
+ * Number Theory(will add more)
+ * String Matching(KMP and ZAlgorithm)
  * Dynamic Programming(soon)
  * Dynamic Programming with BitMasking(soon)
  * Game Theory(soon)
